@@ -7,7 +7,7 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
+//EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
 // we console.log 'yes'.
@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as string.
+// Then we check if name is equal to Mary, and is equal to mary
+// we console.log 'Hi, Mary!'.
+// else if not console.log 'How do you do?'.
+// Answer : 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called 'secret'.
+// we make another variable called 'code' and set it to 123 as number.
+// Then we check if code is equal to 123, 'secret' is set super and code is set as code multiple by 2.
+// Then we check if code is greater than 250 , 'secret' is set as duper, console.log 'secret'.  
+// Answer : super 246
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  we make a variable called 'isStudent' and set it to true . 
+//  we make another variable called 'age' and set it to 34 as number.
+//  we make another variable called 'zip' and set it to 55407 as number.
+// Then we create a compound conditional if isStudent is true and zip is greater than 80000, console.log "You're a student on the west Coast!"
+// if else isStudent is false or age is less than 30, console.log  "what are your hobbies? "
+// if isStudent is true console.log  "Welcome to Prime!"
+// if not console.log " How about the weather? "
+// Answer : 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,12 +136,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// Fix colorOne is red, but the instruuctions ask to set it blue
+// let colorOne = 'blue';
 let colorOne = 'red';
+
+// Fix colorTwo is blue, but the instruction ask to set it red
+// let colorTwo = 'red';
 let colorTwo = 'blue';
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // Missing colorTwoo = 'purple';
 }
 */
 
@@ -147,6 +160,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Fix if temp is higher than 39 or if time is greater or equal to 4 
+// ,but the instructions ask to  check if temp is higher than 39 and if time is greater or equal to  4 
+//  if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +176,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Fix if age is less than or equal age, but instructions ask to check if age is greater than or equal to minAge 
+// if(minAge >= age)
 if(minAge <= age) {
   console.log('no entry');
 } else {
